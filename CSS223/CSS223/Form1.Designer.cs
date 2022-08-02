@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblNumbr = new System.Windows.Forms.Label();
             this.lblInventoryNumber = new System.Windows.Forms.Label();
             this.lblCount = new System.Windows.Forms.Label();
@@ -43,7 +44,9 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.dgv = new System.Windows.Forms.DataGridView();
+            this.errPro = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errPro)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNumbr
@@ -190,6 +193,10 @@
             this.dgv.Size = new System.Drawing.Size(696, 246);
             this.dgv.TabIndex = 14;
             // 
+            // errPro
+            // 
+            this.errPro.ContainerControl = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -214,6 +221,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errPro)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -236,6 +244,7 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.DataGridView dgv;
+        private System.Windows.Forms.ErrorProvider errPro;
     }
 }
 
