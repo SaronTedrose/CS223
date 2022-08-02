@@ -1,0 +1,11 @@
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\bin\Debug\CSS223.exe.config
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\bin\Debug\CSS223.exe
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\bin\Debug\CSS223.pdb
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.csproj.AssemblyReference.cache
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.csproj.SuggestedBindingRedirects.cache
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.Form1.resources
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.Properties.Resources.resources
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.csproj.GenerateResource.cache
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.csproj.CoreCompileInputs.cache
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.exe
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.pdb
