@@ -53,16 +53,17 @@ namespace CSS223
             }
             else if (string.IsNullOrEmpty(txt_count.Text))
             {
-                errPro.SetError(txt_price, "Count is required");
+                errPro.SetError(txt_count, "Count is required");
             }
             else if (string.IsNullOrEmpty(txt_obj.Text))
             {
-                errPro.SetError(txt_price, "Object name is required");
+                errPro.SetError(txt_obj, "Object name is required");
             }
             else if (!r.IsMatch(txt_obj.Text))
             {
                 errPro.SetError(txt_obj, "Object name should not have numbers");
             }
+           
             else
 
             {
@@ -74,9 +75,22 @@ namespace CSS223
                         price = int.Parse(txt_price.Text),
                         number = int.Parse(txt_number.Text),
                         object_name = txt_obj.Text,
-                        inventorNum = int.Parse(txt_number.Text)
+                        inventorNum = int.Parse(txt_number.Text),
+                        isAvailable= chkAvailability.Checked,
+                        urgent = rbu.Checked,
+                        notUrgent= rbnu.Checked
+                        
                     };
                     cl.save();
+
+
+                    foreach (var item in chklst.CheckedItems)
+                    {
+                        MessageBox.Show(item.ToString());
+
+                    }
+
+
                     dgv.DataSource = null;
                     dgv.DataSource = Class1.getAll();
                     
@@ -90,6 +104,9 @@ namespace CSS223
                 txt_inv.Text = "";
                 txt_price.Text = "";
                 txt_obj.Text = "";
+               chkAvailability.Checked = false;
+                rbu.Checked = false;
+                rbnu.Checked = false;
             }
         }
 
@@ -110,7 +127,13 @@ namespace CSS223
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Exit the form");
             System.Environment.Exit(0);
+        }
+
+        private void chklst_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

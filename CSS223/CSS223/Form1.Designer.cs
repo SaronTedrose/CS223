@@ -45,6 +45,10 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.dgv = new System.Windows.Forms.DataGridView();
             this.errPro = new System.Windows.Forms.ErrorProvider(this.components);
+            this.chkAvailability = new System.Windows.Forms.CheckBox();
+            this.chklst = new System.Windows.Forms.CheckedListBox();
+            this.rbu = new System.Windows.Forms.RadioButton();
+            this.rbnu = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errPro)).BeginInit();
             this.SuspendLayout();
@@ -84,7 +88,7 @@
             // 
             this.lblDate.AutoSize = true;
             this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.Location = new System.Drawing.Point(319, 39);
+            this.lblDate.Location = new System.Drawing.Point(262, 39);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(53, 25);
             this.lblDate.TabIndex = 3;
@@ -94,7 +98,7 @@
             // 
             this.lblObjectName.AutoSize = true;
             this.lblObjectName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblObjectName.Location = new System.Drawing.Point(319, 117);
+            this.lblObjectName.Location = new System.Drawing.Point(262, 117);
             this.lblObjectName.Name = "lblObjectName";
             this.lblObjectName.Size = new System.Drawing.Size(126, 25);
             this.lblObjectName.TabIndex = 4;
@@ -104,7 +108,7 @@
             // 
             this.lblPrice.AutoSize = true;
             this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrice.Location = new System.Drawing.Point(329, 206);
+            this.lblPrice.Location = new System.Drawing.Point(262, 206);
             this.lblPrice.Name = "lblPrice";
             this.lblPrice.Size = new System.Drawing.Size(56, 25);
             this.lblPrice.TabIndex = 5;
@@ -113,7 +117,7 @@
             // txt_number
             // 
             this.txt_number.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_number.Location = new System.Drawing.Point(45, 83);
+            this.txt_number.Location = new System.Drawing.Point(45, 67);
             this.txt_number.Name = "txt_number";
             this.txt_number.Size = new System.Drawing.Size(161, 30);
             this.txt_number.TabIndex = 6;
@@ -122,7 +126,7 @@
             // txt_inv
             // 
             this.txt_inv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_inv.Location = new System.Drawing.Point(45, 169);
+            this.txt_inv.Location = new System.Drawing.Point(45, 154);
             this.txt_inv.Name = "txt_inv";
             this.txt_inv.Size = new System.Drawing.Size(161, 30);
             this.txt_inv.TabIndex = 7;
@@ -130,7 +134,7 @@
             // txt_count
             // 
             this.txt_count.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_count.Location = new System.Drawing.Point(45, 249);
+            this.txt_count.Location = new System.Drawing.Point(45, 234);
             this.txt_count.Name = "txt_count";
             this.txt_count.Size = new System.Drawing.Size(161, 30);
             this.txt_count.TabIndex = 8;
@@ -138,7 +142,7 @@
             // txt_price
             // 
             this.txt_price.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_price.Location = new System.Drawing.Point(300, 249);
+            this.txt_price.Location = new System.Drawing.Point(267, 234);
             this.txt_price.Name = "txt_price";
             this.txt_price.Size = new System.Drawing.Size(209, 30);
             this.txt_price.TabIndex = 9;
@@ -147,7 +151,7 @@
             // txt_obj
             // 
             this.txt_obj.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_obj.Location = new System.Drawing.Point(300, 169);
+            this.txt_obj.Location = new System.Drawing.Point(267, 154);
             this.txt_obj.Name = "txt_obj";
             this.txt_obj.Size = new System.Drawing.Size(209, 30);
             this.txt_obj.TabIndex = 10;
@@ -156,7 +160,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(300, 84);
+            this.dateTimePicker1.Location = new System.Drawing.Point(267, 67);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 30);
             this.dateTimePicker1.TabIndex = 11;
@@ -164,7 +168,7 @@
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(130, 337);
+            this.btnAdd.Location = new System.Drawing.Point(630, 337);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(111, 45);
             this.btnAdd.TabIndex = 12;
@@ -175,7 +179,7 @@
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(389, 337);
+            this.btnCancel.Location = new System.Drawing.Point(983, 337);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(111, 45);
             this.btnCancel.TabIndex = 13;
@@ -186,22 +190,75 @@
             // dgv
             // 
             this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv.Location = new System.Drawing.Point(515, 39);
+            this.dgv.Location = new System.Drawing.Point(482, 39);
             this.dgv.Name = "dgv";
             this.dgv.RowHeadersWidth = 51;
             this.dgv.RowTemplate.Height = 24;
-            this.dgv.Size = new System.Drawing.Size(696, 246);
+            this.dgv.Size = new System.Drawing.Size(729, 246);
             this.dgv.TabIndex = 14;
             // 
             // errPro
             // 
             this.errPro.ContainerControl = this;
             // 
+            // chkAvailability
+            // 
+            this.chkAvailability.AutoSize = true;
+            this.chkAvailability.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkAvailability.Location = new System.Drawing.Point(12, 287);
+            this.chkAvailability.Name = "chkAvailability";
+            this.chkAvailability.Size = new System.Drawing.Size(129, 29);
+            this.chkAvailability.TabIndex = 15;
+            this.chkAvailability.Text = "IsAvailable";
+            this.chkAvailability.UseVisualStyleBackColor = true;
+            // 
+            // chklst
+            // 
+            this.chklst.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chklst.FormattingEnabled = true;
+            this.chklst.Items.AddRange(new object[] {
+            "Transportation",
+            "Instalation",
+            "Loading"});
+            this.chklst.Location = new System.Drawing.Point(152, 287);
+            this.chklst.Name = "chklst";
+            this.chklst.Size = new System.Drawing.Size(163, 79);
+            this.chklst.TabIndex = 16;
+            this.chklst.SelectedIndexChanged += new System.EventHandler(this.chklst_SelectedIndexChanged);
+            // 
+            // rbu
+            // 
+            this.rbu.AutoSize = true;
+            this.rbu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbu.Location = new System.Drawing.Point(334, 287);
+            this.rbu.Name = "rbu";
+            this.rbu.Size = new System.Drawing.Size(91, 29);
+            this.rbu.TabIndex = 17;
+            this.rbu.TabStop = true;
+            this.rbu.Text = "Urgent";
+            this.rbu.UseVisualStyleBackColor = true;
+            // 
+            // rbnu
+            // 
+            this.rbnu.AutoSize = true;
+            this.rbnu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbnu.Location = new System.Drawing.Point(334, 314);
+            this.rbnu.Name = "rbnu";
+            this.rbnu.Size = new System.Drawing.Size(126, 29);
+            this.rbnu.TabIndex = 18;
+            this.rbnu.TabStop = true;
+            this.rbnu.Text = "Not Urgent";
+            this.rbnu.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1223, 416);
+            this.Controls.Add(this.rbnu);
+            this.Controls.Add(this.rbu);
+            this.Controls.Add(this.chklst);
+            this.Controls.Add(this.chkAvailability);
             this.Controls.Add(this.dgv);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAdd);
@@ -245,6 +302,10 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.DataGridView dgv;
         private System.Windows.Forms.ErrorProvider errPro;
+        private System.Windows.Forms.CheckBox chkAvailability;
+        private System.Windows.Forms.CheckedListBox chklst;
+        private System.Windows.Forms.RadioButton rbnu;
+        private System.Windows.Forms.RadioButton rbu;
     }
 }
 
