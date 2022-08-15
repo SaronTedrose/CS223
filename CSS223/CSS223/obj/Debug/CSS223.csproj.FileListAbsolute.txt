@@ -9,3 +9,4 @@ C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.cspr
 C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.csproj.CoreCompileInputs.cache
 C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.exe
 C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.pdb
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.Log_in.resources
