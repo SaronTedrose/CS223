@@ -28,6 +28,9 @@ namespace CSS223
         {
             return Products;
         }
-
+        public static Class1 findOne(string name)
+        {
+            return Products.Find(Products => Products.object_name == name);
+        }
     }
 }

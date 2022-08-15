@@ -21,8 +21,12 @@ namespace CSS223
         {
             if ((txtName.Text=="admin") && (txtPass.Text == "admin"))
             {
-                Form1 f = new Form1();
+                /*Form1 f = new Form1();
                 f.Show();
+                this.Hide();
+                */
+                Menu m = new Menu();
+                m.Show();
                 this.Hide();
             }
             else
