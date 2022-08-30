@@ -24,6 +24,11 @@ namespace CSS223
                 product_card pc = new product_card();
                 pc.MyObjName = item.object_name;
                 pc.MyPrice = item.price;
+                pc.Click += (Object o, EventArgs e2) =>
+                {
+                    DetailsPage dp = new DetailsPage(item.number, item.inventorNum, item.count);
+                    dp.Show();
+                };
                 flp.Controls.Add(pc);
             }
         }

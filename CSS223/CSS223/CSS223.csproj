@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DetailsPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailsPage.Designer.cs">
+      <DependentUpon>DetailsPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Display.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     <Compile Include="Search.Designer.cs">
       <DependentUpon>Search.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DetailsPage.resx">
+      <DependentUpon>DetailsPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Display.resx">
       <DependentUpon>Display.cs</DependentUpon>
     </EmbeddedResource>
