@@ -12,3 +12,5 @@ C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.pdb
 C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.Log_in.resources
 C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.Menu.resources
 C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.Search.resources
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.product_card.resources
+C:\Users\saron\OneDrive\Desktop\Csharp\CS223\CSS223\CSS223\obj\Debug\CSS223.Display.resources

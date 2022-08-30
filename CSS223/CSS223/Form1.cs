@@ -18,6 +18,8 @@ namespace CSS223
         public Form1()
         {
             InitializeComponent();
+            dgv.DataSource = null;
+            dgv.DataSource = Class1.getAll();
         }
 
         private void Form1_Load(object sender, EventArgs e)

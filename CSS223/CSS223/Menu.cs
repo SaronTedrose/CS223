@@ -39,5 +39,17 @@ namespace CSS223
             s.MdiParent = this;
             s.Show();
         }
+
+        private void displayToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+            Display dp = new Display();
+            dp.MdiParent = this;    
+            dp.Show();
+
+        }
     }
 }
