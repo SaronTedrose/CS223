@@ -31,5 +31,10 @@ namespace CSS223
                 MessageBox.Show("Match is found");
             }
         }
+
+        private void Search_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
